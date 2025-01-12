@@ -12,20 +12,6 @@ This repository contains a Python-based RAG (Retrieval-Augmented Generation) cha
 *   **Swagger UI:** Offers an interactive interface to explore the API endpoints.
 *   **Persistent Indexing:** Saves index data and chunk information on disk for faster loading in subsequent runs.
 
-# Multi-User RAG Chat System
-
-This repository contains a Python-based RAG (Retrieval-Augmented Generation) chat system that allows multiple users to query documents with restricted access, while maintaining conversational context. The system provides a REST API that can be accessed through a Swagger UI.
-
-## Features
-
-*   **Multi-User Support:** Handles concurrent queries from different users.
-*   **Access Control:** Restricts user access to documents based on configured email mappings.
-*   **Conversational Context:** Maintains a conversation history for each user, enabling follow-up questions.
-*   **RAG Architecture:** Retrieves relevant document excerpts based on user queries, combined with a Large Language Model to produce accurate answers.
-*   **REST API:** Provides a chat API using Flask, accessible via HTTP requests.
-*   **Swagger UI:** Offers an interactive interface to explore the API endpoints.
-*   **Persistent Indexing:** Saves index data and chunk information on disk for faster loading in subsequent runs.
-
 ## How the System Works
 
 This system operates using the Retrieval Augmented Generation (RAG) framework, enhanced with access control and conversational memory. Here's a breakdown of the core steps:
