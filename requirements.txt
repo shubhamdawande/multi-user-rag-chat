@@ -1,0 +1,9 @@
+langchain
+faiss-cpu
+numpy
+PyPDF2
+Flask
+Flask-CORS
+requests
+flask-swagger-ui
+torch
