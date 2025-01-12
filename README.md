@@ -1,6 +1,6 @@
 # Multi-User RAG Chat System
 
-This repository RAG based chat system that allows multiple users to query documents with restricted access, while maintaining conversational context. The system provides a chat API that can be accessed through a Swagger UI.
+This repository contains a RAG based chat system that allows multiple users to query documents with restricted access, while maintaining conversational context. The system provides a chat API that can be accessed through a Swagger UI.
 
 ## Features
 
