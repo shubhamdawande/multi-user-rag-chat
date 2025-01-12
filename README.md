@@ -37,9 +37,11 @@ This system operates using the Retrieval Augmented Generation (RAG) framework, e
 2.  Place your PDF documents in the `./data` directory.
 3.  Run the following command to start the server:
     ```bash
+    pip install -r requirements.txt
     python app.py
     ```
 4.  Open your web browser and go to `http://127.0.0.1:5000/swagger` to access the Swagger UI and interact with the API.
+5.  All the input documents reside under `./data` folder. All the vectordb and chunk data resides under `./db` folder. To re-index the vectordb and document chunks, delete the files inside db folder. 
 
 ## API Usage
 
